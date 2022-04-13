@@ -10,13 +10,9 @@ export function generateCoordinates(dimension: number) {
 
 export function generateCells(dimension: number) {
   const { x, y } = generateCoordinates(dimension);
-  const result: string[] = [];
 
-  y.forEach(yLetter => {
-    x.forEach(xNumber => {
-      result.push(yLetter + xNumber);
-    });
-  });
-
-  return result;
+  return y.reduce((points, yLetter) => {
+    x.forEach(xNumber => points.push(yLetter + xNumber));
+    return points;
+  }, [] as string[]);
 }
