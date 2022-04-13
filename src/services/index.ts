@@ -1,0 +1,1 @@
+export { generateCells } from './coordinateGenerator';
