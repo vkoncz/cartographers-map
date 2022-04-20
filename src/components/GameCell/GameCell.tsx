@@ -1,3 +1,4 @@
+import { forest } from '../../drawings';
 import * as s from './GameCell.style';
 
 interface Props {
@@ -7,7 +8,7 @@ interface Props {
 export function GameCell({ coordinate }: Props) {
   return (
     <s.CellContainer>
-      <p>{coordinate}</p>
+      <img src={forest} alt="drawing" />
     </s.CellContainer>
   );
 }

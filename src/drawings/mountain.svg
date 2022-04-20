@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+   <rect width="100%" height="100%" fill="#401406" />
+   <polygon points="10,70 40,15 70,70" stroke="#f0dfd2" fill="transparent" stroke-width="5" />
+   <polygon points="30,70 60,10 90,70" stroke="#f0dfd2" fill="#401406" stroke-width="5" />
+   
+   <polyline points="52,25 60,38 68,25" stroke="#f0dfd2" stroke-width="5" fill="none" />
+   <circle cx="50" cy="75" r="20" fill="#cd9a26" />
+</svg>
+

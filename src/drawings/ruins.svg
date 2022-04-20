@@ -1,0 +1,35 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="85" width="35" height="10" rx="2" fill="#585048" />
+  <rect x="12.5" y="74" width="30" height="10" rx="2" fill="#585048" />
+
+  <rect
+    x="15"
+    y="10"
+    width="25"
+    height="60"
+    fill="transparent"
+    stroke="#585048"
+    stroke-width="5"
+    rx="2"
+  />
+  <line x1="23" x2="23" y1="10" y2="70" stroke="#585048" stroke-width="5" />
+  <line x1="32" x2="32" y1="10" y2="70" stroke="#585048" stroke-width="5" />
+
+  <line x1="5" x2="50" y1="4" y2="4" stroke="#585048" stroke-width="5" stroke-linecap="round" />
+
+  <rect x="55" y="85" width="35" height="10" rx="2" fill="#585048" />
+  <rect x="57.5" y="74" width="30" height="10" rx="2" fill="#585048" />
+
+  <rect
+    x="60"
+    y="40"
+    width="25"
+    height="30"
+    fill="transparent"
+    stroke="#585048"
+    stroke-width="5"
+    rx="2"
+  />
+  <line x1="68" x2="68" y1="40" y2="70" stroke="#585048" stroke-width="5" />
+  <line x1="77" x2="77" y1="40" y2="70" stroke="#585048" stroke-width="5" />
+</svg>
