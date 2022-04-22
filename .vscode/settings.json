@@ -14,5 +14,14 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "prettier.tabWidth": 2,
-    "jest.autoRun": null
+    "jest.autoRun": null,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true
+    }
 }

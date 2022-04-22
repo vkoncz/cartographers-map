@@ -1,7 +1,7 @@
-import { GameMap } from './components';
+import { GamePage } from './pages';
 
 function App() {
-  return <GameMap />;
+  return <GamePage />;
 }
 
 export default App;
